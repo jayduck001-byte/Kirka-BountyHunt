@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: rgb(189, 132, 227);
+    color: white;
+    font-family: sans-serif;
+}
+
+/* GLOBAL BUTTON */
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background: rgb(224, 163, 128);
+    color: white;
+    cursor: pointer;
+}
+
+/* NAVBAR */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 40px;
+    background: #111;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+/* HERO */
+
+.hero {
+    text-align: center;
+    padding: 120px 20px;
+}
+
+.hero h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    color: #aaa;
+    margin-bottom: 30px;
+}
+
+.hero-buttons button {
+    padding: 15px 30px;
+    margin: 10px;
+
+    border: none;
+    border-radius: 8px;
+
+    background: #3b82f6;
+    color: white;
+
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* FEATURES */
+
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+    padding: 80px 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #1a1a1a;
+    padding: 30px;
+
+    width: 300px;
+
+    border-radius: 12px;
+    text-align: center;
+}
+
+.card h2 {
+    margin-bottom: 15px;
+}
+
+/* LIVE BOARD */
+
+.live-board {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+#liveBoardContent {
+    background: #1a1a1a;
+
+    margin: auto;
+    max-width: 700px;
+
+    padding: 30px;
+
+    border-radius: 12px;
+    margin-top: 20px;
+}
+
+/* DISCORD PANEL */
+
+.discord-panel {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.discord-panel button {
+    padding: 15px 30px;
+
+    border: none;
+    border-radius: 8px;
+
+    background: rgb(224, 163, 128);
+    color: white;
+
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* LOGIN */
+
+.login-container {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+    background: #0f0f0f;
+}
+
+.login-box {
+    background: #1a1a1a;
+
+    padding: 40px;
+
+    border-radius: 12px;
+
+    width: 350px;
+    text-align: center;
+}
+
+.login-box h1 {
+    margin-bottom: 25px;
+}
+
+.login-box input {
+    width: 100%;
+
+    padding: 12px;
+    margin-bottom: 15px;
+
+    border: none;
+    border-radius: 8px;
+
+    background: #2a2a2a;
+    color: white;
+}
+
+.login-box button {
+    width: 100%;
+
+    padding: 12px;
+    margin-top: 10px;
+
+    border: none;
+    border-radius: 8px;
+
+    background: rgb(224, 163, 128);
+    color: white;
+
+    cursor: pointer;
+}
+
+#message {
+    margin-top: 20px;
+    color: #aaa;
+}
+
+/* FOOTER */
+
+footer {
+    background: #111;
+
+    text-align: center;
+    padding: 30px;
+
+    margin-top: 50px;
+}
